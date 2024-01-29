@@ -1,0 +1,92 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background: url("FONDOB.jpg") center center/cover no-repeat fixed; 
+}
+
+.top-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(255, 0, 0, 0.7);
+    overflow: hidden;
+}
+
+.logo img {
+    height: 80px;
+}
+
+.top-nav a {
+    color: white;
+    text-decoration: none;
+    padding: 18px 16px;
+    border-left: 1px solid white;
+    transition: background-color 0.5s ease;
+}
+
+.top-nav a:hover {
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+}
+
+.top-nav a:first-child {
+    border-left: none;
+}
+
+/* TITULO BIENVENIDO*/
+
+.bienvenido {
+        text-align: center;
+        font-size: 24px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+}
+
+.intro {
+    text-align: center;
+    font-size: 18px;
+    color: #ffffff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.titulo {
+    text-align: center;
+    font-size: 100px;
+    font-weight: bold;
+    letter-spacing: 5px;
+    color: #ffffff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+
+hr {
+    border: 1px solid #ccc;
+    margin: 20px 0;
+}
+
+.options {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.options a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 15px 30px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #000000;
+    border-radius: 5px;
+    transition: background-color 0.8s ease;
+}
+
+.options a:hover {
+    background-color: #ff0000;
+}

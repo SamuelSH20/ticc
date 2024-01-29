@@ -1,0 +1,135 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #dddddd;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.main-content {
+    display: flex;
+    justify-content: space-around;
+    max-width: 1200px;
+    margin: 20px auto;
+}
+
+.product-details {
+    flex: 1;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: white;
+}
+
+.product-details img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.purchase-options {
+    flex: 1;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: white;
+}
+
+.purchase-options h3 {
+    color: #333;
+}
+
+.purchase-options ul {
+    list-style: none;
+    padding: 0;
+}
+
+.purchase-options ul li {
+    margin-bottom: 10px;
+}
+
+.purchase-options button {
+    background-color: #363636;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.purchase-options button:hover {
+    background-color: #ff0000;
+}
+
+.more-info {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: white;
+}
+
+.more-info h2 {
+    color: #333;
+}
+
+.more-info ul {
+    list-style: none;
+    padding: 0;
+}
+
+.more-info ul li {
+    margin-bottom: 10px;
+}
+
+.footer {
+    background-color: #424242;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+h2 {
+    color: #000000;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+}
+  
+.top-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(255, 0, 0, 0.7);
+    overflow: hidden;
+}
+
+.logo img {
+    height: 80px;
+}
+
+.top-nav a {
+    color: white;
+    text-decoration: none;
+    padding: 18px 16px;
+    border-left: 1px solid white;
+    transition: background-color 0.5s ease;
+}
+
+.top-nav a:hover {
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+}
+
+.top-nav a:first-child {
+    border-left: none;
+}
